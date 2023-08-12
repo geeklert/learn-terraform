@@ -16,3 +16,15 @@ variable "AMIS" {
     us-east-2 = "ami-02a89066c48741345"
  }
 }
+
+variable "path_to_private_key" {
+    default = "chaabi.pem"  
+}
+
+variable "path_to_public_key" {
+    default = "chaabi.pub"
+}
+
+variable "instance-username" {
+    default = "ec2-user"
+}
